@@ -139,7 +139,7 @@ body {
 }
 
 .nav {
-    font-family: Roboto;
+    font-family: "Roboto";
     font-weight: 500;
     line-height: 1.5;
     font-size: 16px;
@@ -214,8 +214,22 @@ gap: 40px;
         margin-right: auto;
 }
 
+.hero-container {
+    width: 1440px;
+
+    
+
+}
 .hero-section {
+
+background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/people-office.jpg);
+
 background-color: #2e2f42;
+background-repeat: no-repeat;
+background-size: auto;
+background-origin: padding-box;
+background-clip: padding-box;
+
 }
 .main-title {
     font-family: "Roboto";
