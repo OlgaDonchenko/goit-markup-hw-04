@@ -366,6 +366,7 @@ color: var(--SLATE, #434455);
 /* === PEOPLE TEAM STYLES ===== */
 
 
+
 .team-people-section {
         background-color: #F4F4FD;
         padding: 120px 0;
@@ -375,12 +376,7 @@ color: var(--SLATE, #434455);
         .team-people-list {
             display: flex;
             gap: 24px;
-            
-                justify-content: center;
-                align-items: center;
-             
-            
-
+       
         }
     .team-people-title {
         margin-bottom: 72px;
@@ -389,7 +385,7 @@ color: var(--SLATE, #434455);
         font-family: "Roboto";
             font-size: 36px;
          line-height: 1.11;
-            font-weight: 700;
+            font-weight:700;
             letter-spacing: 0.72px;
             text-transform: capitalize;
     }
@@ -400,6 +396,12 @@ color: var(--SLATE, #434455);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
             0px 1px 1px rgba(46, 47, 66, 0.16),
             0px 2px 1px rgba(46, 47, 66, 0.08);
+            display: inline-flex;
+                padding-bottom: 0px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 32px
 }
 
 .conteiner-info-people {
