@@ -505,14 +505,19 @@ color: var(--SLATE, #434455);
 }
 
 /* ===== FOOTER STYLES */
+.footer-conteiner{
+    margin-right: 120px;
 
-
-.footer-icon-conteiner {
+}
+.discription-conteiner {
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
 }
-.footer-social-media {
+/* .social-media-container {
+    display: flex;
+        align-items: baseline;
+} */
+.footer-social-paragraph {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -529,7 +534,7 @@ color: var(--SLATE, #434455);
     height: 40px;
 
 }
-.linc-footer-icon {
+.footer-social-link {
     width: 100%;
     height: 100%;
     background-color: #4d5ae5;
@@ -537,8 +542,11 @@ color: var(--SLATE, #434455);
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
-
+.footer-social-icon{
+    fill: #f4f4fd;
+}
 .footer-icon {
     fill: #f4f4fd;
 
