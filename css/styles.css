@@ -1,5 +1,4 @@
-/* ============== COMMON STYLES ============== */
-
+/* ========== COMMON STYLES ===== */
 h1,
     h2,
     h3,
@@ -60,8 +59,7 @@ body {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
- 
-/* ============== /COMMON STYLES ============== */
+ /* ============== /COMMON STYLES ============== */
 
 /* =======  HEADER STYLESS ======= */
  
@@ -116,6 +114,7 @@ color: #404bbf;
 .page-hedder-link {
     position: relative;
     color: #404bbf;
+    
 }
 .page-hedder-link::after,
 .link::after {
@@ -138,6 +137,7 @@ color: #404bbf;
 
 .menu-item {
     padding: 24px 0;
+    color: #404bbf;
     /* position: relative;
     color: #404bbf; */
 }
@@ -302,7 +302,7 @@ width: 264px;
     border-radius: 4px;
     border: 1px solid var(--LIGHT-SLATE, #8E8F99);
     background: var(--CLOUD, #F4F4FD);
-   
+margin-bottom: 8px;
 
 }
 
@@ -382,7 +382,7 @@ color: var(--SLATE, #434455);
 display: flex;
 width: 40px;
 height: 40px;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .social {
     width: 100%;
@@ -392,8 +392,9 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social:hover, .social:active {
+.social:hover, .social:focus {
     background-color: #404bbf;
 }
 .team-social-icon {
@@ -440,7 +441,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 .conteiner-info-people {
-    margin: 32px 0;
+padding: 32px 0;
     display: flex;
         width: 232px;
         flex-direction: column;
